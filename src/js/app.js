@@ -23,7 +23,7 @@ setInterval(() => {
         character.css('background-image', `url('./public/img/idle/Idle (${x++}).png')`)
         if (x === 16) x = 1;
     }else{
-        character.css('background-image', `url('./public/img/idle/Idle (${x++}).png')`)
+        character.css('background-image', `url('./public/img/run/Run (${x++}).png')`)
 
     }
 }, 50);
